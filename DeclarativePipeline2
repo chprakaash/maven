@@ -71,7 +71,7 @@ pipeline
                     {
                         git 'https://github.com/selenium-saikrishna/FunctionalTesting.git'
 
-                         sh label: '', script: 'echo "Testing Passed"'
+                         sh label: '', script: 'echo "Testing Passed...."'
                     }
                     catch(Exception e4)
                     {
